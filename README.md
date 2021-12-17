@@ -15,6 +15,8 @@ Tecnologias usadas:
 - CSS
 - C#
 - RAZOR
+- .NET 5.1
+- ASP.NET
 - PADRÃO MVC
 - BOOTSTRAP 5.1
 
