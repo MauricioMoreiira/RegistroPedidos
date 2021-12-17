@@ -8,7 +8,7 @@
 
 Testando meus conhecimentos nas tecnologias
 
-A aplicação ira lhe devolver dados sobre sua taxa de indice corporal
+A aplicação ira lhe devolver ferramentas usadas em funções reais de comercio
 
 Tecnologias usadas:
 - HTML
