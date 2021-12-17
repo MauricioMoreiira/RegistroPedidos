@@ -1,4 +1,4 @@
-# CADASTRO DE PRODUTOS
+# APP CADASTRO DE PRODUTOS
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/MauricioMoreiira/IMC/blob/main/LICENSE) 
 
