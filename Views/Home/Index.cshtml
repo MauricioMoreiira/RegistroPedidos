@@ -6,9 +6,9 @@
 <h5>Preecha os campos abaixo para registrar um item</h5>
 <br>
 
-<form action="post">
+<form method="post">
     <p>
-        <label asp-for="descricao">Valor da unidade: </label>
+        <label asp-for="descricao">Descricao: </label>
         <input asp-for="descricao" required>
     </p>
 
@@ -20,5 +20,9 @@
     <p>
         <label asp-for="quantidade">Quantidade: </label>
         <input asp-for="quantidade" required>
+    </p>
+
+    <p>
+        <input type="submit" value="Confirmar">
     </p>
 </form>

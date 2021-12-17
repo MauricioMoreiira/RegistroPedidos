@@ -15639,6 +15639,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\mauri\\Desktop\\Desenvolve\\Program\\RegistroPedidos\\Views\\Home\\Listar.cshtml",
+      "TargetPath": "Views\\Home\\Listar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\mauri\\Desktop\\Desenvolve\\Program\\RegistroPedidos\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -15649,8 +15654,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\mauri\\Desktop\\Desenvolve\\Program\\RegistroPedidos\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\mauri\\Desktop\\Desenvolve\\Program\\RegistroPedidos\\Views\\Home\\Concluido.cshtml",
+      "TargetPath": "Views\\Home\\Concluido.cshtml",
       "FileKind": "mvc"
     }
   ],

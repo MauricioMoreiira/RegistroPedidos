@@ -22,11 +22,18 @@ namespace RegistroPedidos.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public ActionResult Index(ItemPedido pedido){
+            Dados.PedidoAtual.Inserir(pedido);
+            return View("Concluido");
+        }
         
 
-        public IActionResult Privacy()
+        public IActionResult Listar()
         {
-            return View();
+            List<ItemPedido> pedidos = Dados.PedidoAtual.Listar();
+            return View(pedidos);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
