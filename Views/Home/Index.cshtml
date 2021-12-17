@@ -1,0 +1,24 @@
+﻿@model ItemPedido
+@{
+    ViewData["Title"] = "Registrar";
+}
+
+<h5>Preecha os campos abaixo para registrar um item</h5>
+<br>
+
+<form action="post">
+    <p>
+        <label asp-for="descricao">Valor da unidade: </label>
+        <input asp-for="descricao" required>
+    </p>
+
+    <p>
+        <label asp-for="valor_unitario">Valor da unidade: </label>
+        <input asp-for="valor_unitario" required>
+    </p>
+
+    <p>
+        <label asp-for="quantidade">Quantidade: </label>
+        <input asp-for="quantidade" required>
+    </p>
+</form>
