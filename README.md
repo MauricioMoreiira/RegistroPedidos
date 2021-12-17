@@ -8,7 +8,7 @@
 
 Testando meus conhecimentos nas tecnologias
 
-A aplicação ira lhe devolver ferramentas usadas em funções reais de comercio
+A aplicação ira lhe devovler ferramenta uteis e parecidas com logicas reias do mercado
 
 Tecnologias usadas:
 - HTML
