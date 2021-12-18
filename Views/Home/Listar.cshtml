@@ -7,8 +7,6 @@
 <h5>Itens registrados no pedido:</h5>
 <br>
 
-
-
 <table class="table">
     <thead>
         <tr>
@@ -18,6 +16,7 @@
         </tr>
     </thead>
     <tbody>
+        
         @foreach (ItemPedido p in Model)
         {
             <tr>
@@ -31,4 +30,4 @@
 
 <p><strong>Valor totalizado:</strong>  @string.Format("{0:C}", Dados.PedidoAtual.Totalizar())  </p>
 <br>
-<p><a asp-action="Index">Registrar novo Item</a></p>
+<p><a asp-action="Index" class="btn btn-primary">Registrar novo Item</a></p>
