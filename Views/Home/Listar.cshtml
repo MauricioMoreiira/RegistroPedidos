@@ -6,12 +6,15 @@
 
 <h5>Itens registrados no pedido:</h5>
 <br>
-<table cellpadding="5" cellspacing="5">
+
+
+
+<table class="table">
     <thead>
         <tr>
-            <th>Descrição</th>
-            <th>Valor</th>
-            <th>Quantidade</th>
+            <th scope="col">Descrição</th>
+            <th scope="col">Valor</th>
+            <th scope="col">Quantidade</th>
         </tr>
     </thead>
     <tbody>
@@ -26,6 +29,6 @@
     </tbody>
 </table>
 
-<p><strong>O valor total do pedido é:</strong> @Dados.PedidoAtual.Totalizar() R$</p>
+<p><strong>Valor totalizado:</strong>  @string.Format("{0:C}", Dados.PedidoAtual.Totalizar())  </p>
 <br>
-<p><a asp-action="Index">Registrar um novo Item</a></p>
+<p><a asp-action="Index">Registrar novo Item</a></p>
