@@ -2,7 +2,7 @@
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/MauricioMoreiira/IMC/blob/main/LICENSE) 
 
- Com está aplicação será possivel cadastrar produtos em geral, e também possivel vizualizar a lista com os já adicionados
+ Com está aplicação será possivel cadastrar produtos em geral, e também possivel vizualizar a lista com os já cadastrados
 
 ## ASP NET - RAZOR - PADRÃO MVC
 
