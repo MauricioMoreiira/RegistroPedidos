@@ -36,6 +36,11 @@ namespace RegistroPedidos.Controllers
             return View(pedidos);
         }
 
+        public IActionResult ProdutoDisponivel()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
